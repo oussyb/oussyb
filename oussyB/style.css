@@ -1,0 +1,662 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ous{
+    height: 400px;
+    background-image: url(bs.jpg);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 12%;
+    
+}
+
+
+.logo{
+    margin-top: -180px;
+    padding-left: -30px  ;
+    font-size: 40px;
+    font-weight: 1000;
+    color: brown;
+}
+.logo span{
+    color: black;
+}
+
+.nav{
+    margin-top: -180px;
+    display: flex;
+    padding-left: 90px;
+}
+.nav a{
+    color: white;
+    margin-left: 160px;
+    font-size: 15;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .50s ease;
+}
+.nav a:hover{
+    border-bottom: 2px solid red;
+}
+#menu-icon{
+    color: brown;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+   
+    height: 400px;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 40%;
+  
+}
+.container{
+    position: relative;
+    align-items: center;
+
+}
+
+.container h3{
+  
+    margin-top: 15%;
+    font-size: 60px;
+    color: brown;
+    text-shadow: black;
+    font-style: inherit;
+}
+
+.container h4{
+    margin: 20px;
+    padding-left: 14%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+
+
+}
+
+.container p{
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    font-weight: 300;
+}
+
+.rice{
+    width: 100%;
+    height: 700px;
+    background: rgb(119, 173, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.rice h5{
+    margin: 90px;
+    padding-left: 1%;
+    border: 1px solid transparent;
+    background: black;
+    position: absolute;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+
+}
+.rice h5:hover{
+    color: red;
+}
+
+.rice .age img{
+    margin-top: 200px;
+    padding-left: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+.rice .age p{
+    color: rgb(168, 71, 7);
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.rice .age1 img{
+    margin-top: 200px;
+    padding-right: 70px;
+    height: 350px;
+    width: 410px;
+
+}
+.rice .age1 p{
+    color: black;
+    margin: 20px;
+    font-weight: bolder;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.rice .age2 img{
+    margin-top: 200px;
+    padding-left: 20px;
+    height: 350px;
+    width: 400px;
+
+}
+.rice .age2 p{
+    color: green;
+    margin: 20px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+
+.epl{
+    margin: 20px;
+    height: 450px;
+    width: 97%;
+    display: flex;
+    border-style: groove;
+}
+.epl img{
+    height: 443px;
+    width: 60%;
+
+}
+.epl p{
+    margin: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family:  Courier, monospace;
+    font-style: inherit;
+    color: brown;
+
+}
+.epl p span{
+    color: black;
+}
+
+/* down part of the website */
+
+.fa{
+    height: 100px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.fa h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.fa p{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.fa .icons{
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+    padding: 40px;
+    transform: translateY(-50%);
+}
+
+.fa .icons i{
+    display: inline-flex;
+    margin: 26px 10px;
+    font-size: 24px;
+    color: black;
+    transition: all .50s ease;
+}
+
+.fa .icons i:hover{
+    color:  rgb(224, 18, 18);
+    transform: translate(-50%);
+}
+
+.fa .maa{
+    margin-top: 60px;
+}
+.fa .maa h1{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.fa .maa p{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.maa hr{
+    width: 95%;
+}
+
+/*responsive using media query*/
+
+@media (max-width:1460px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+
+}
+@media (max-width:1460px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width:1340px){
+    .age {
+        width: 100%;
+        height: auto;
+    }
+    .rice h5{
+        font-size: 35px;
+        margin: 0 0 30px;
+    }
+    .rice p{
+        margin-bottom: 25px;
+    }
+    .rice{
+            position: absolute;
+            width: 60px;
+            height: 20vh;
+            display: block;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px 20px ;
+    
+    }
+   .fa{
+    margin-top: 300%;
+    font-size: 16px;
+   }
+}
+@media (max-width:960px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+    #rice{
+        position: absolute;
+        width: 60px;
+        height: 60vh;
+        display: block;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px ;
+    }
+}
+
+
+
+@media (max-width:640px){
+    #menu-icon{
+        display: block;
+    }
+    .nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 160px;
+        height: 60vh;
+        background: brown;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px ;
+        transition: all .50s ease;
+    }
+    .nav a{
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+    }
+    .nav.open{
+        right: 0;
+    }
+
+    #rice{
+        position: absolute;
+        width: 60px;
+        height: 60vh;
+        display: block;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px ;
+    }
+}
+
+
+
+/* contacts */
+.qcell{
+    margin-top: 35%;
+    padding-left: 90px;
+}
+.qcell h1{
+    margin-top: 150px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    letter-spacing: .5em;
+    font-size: 15px;
+}
+
+.qcell p{
+    margin: 20px;
+    font-size: 56px;
+    font-style: unset;
+    font-weight: 300;
+
+}
+
+.qcell span{
+    color: brown;
+}
+
+button{
+    width: 20%;
+    padding: 1%;
+    border-radius: 25px;
+    color: brown;
+    border: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.afri{
+    margin-top: 250px;
+    margin-left: 400px;
+    position: absolute;
+}
+.afri .cell{
+    
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 400px;
+    left: 38%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: 0px 1px 4px brown;
+}
+
+
+
+.afri .cell input{
+    width: 75%;
+    margin: auto;
+    background-color: lightslategray;
+    padding: 2%;
+    border-radius: 25px;
+    border: 0;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    width: 60%;
+    padding: 1%;
+    border-radius: 35px;
+    color: white;
+    background-color: brown;
+    border: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+button :hover{
+    color: lightslategray;
+}
+
+/* down part */
+
+.faa{
+    height: 200px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 40%;
+
+}
+.faa h2{
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.faa p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.faa .maaa{
+    margin-top: 40px;
+}
+.faa .maaa h1{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.faa .maaa p{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.maaa hr{
+    width: 95%;
+}
+
+
+/*SERVICES*/
+
+.ford{
+    margin-top: 35%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ford h1{
+    
+    font-size: 40px;
+    font: bolder;
+    text-align: center;
+    color: black;
+}
+.ford p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(22, 18, 18);
+}
+
+h1{
+    margin-top: 100px;
+    padding-left: 60px;
+    font-size: 40px;
+    font: bolder;
+    color: brown;
+}
+
+
+.benz{
+    margin: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.benz p{
+    margin: 35px;
+    font-size: 25px;
+    color: rgb(24, 18, 18);
+}
+.benz img{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 360px;
+    width: 38%;
+    padding: 25px;
+    transform: rotate(120deg);
+}
+
+h2{
+margin-top: 200px;
+padding-right: 100px;
+font-size: 40px;
+text-align: right;
+font: bolder;
+color: brown;
+}
+
+.hummer{
+    margin: 10px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hummer p{
+    margin: 35px;
+    font-size: 25px;
+    color: rgb(24, 18, 18);
+}
+.hummer img{
+    margin-top: -20px;
+    height: 360px;
+    width: 40%;
+    padding: 20px;
+    transform: rotate(110deg);
+}
+h3{
+    margin-top: 160px;
+    padding-left: 60px;
+    font-size: 40px;
+    font: bolder;
+    color: brown;
+}
+.kia{
+    margin: 10px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.kia p{
+        margin: 35px;
+        font-size: 25px;
+        color: rgb(24, 18, 18);
+    
+}
+.kia img{
+    margin-top: -20px;
+    height: 360px;
+    width: 40%;
+    padding: 20px;
+    transform: rotate(110deg);
+}
+h4{
+    margin-top: 200px;
+    padding-right: 100px;
+    font-size: 40px;
+    text-align: right;
+    font: bolder;
+    color: brown;
+    }
+    .toyota{
+        margin: 20px;
+        margin-top: 2px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .toyota p{
+        margin: 30px;
+        font-size: 25px;
+        color: rgb(24, 18, 18);
+    }
+    .toyota img{
+        margin-top: -20px;
+        height: 360px;
+        width: 40%;
+        padding: 25px;
+        transform: rotate(310deg);
+    }
+    
+    /* down part */
+.faaa{
+    height: 200px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+
+}
+.faaa h2{
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.faaa p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.faaa .maaaa{
+    margin-top: 40px;
+}
+.faaa .maaaa h1{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.faaa .maaaa p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.maaaa hr{
+    width: 95%;
+}
